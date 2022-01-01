@@ -83,6 +83,8 @@ jobs:
           mkdir -p "%HAXELIB_ROOT%"
 
           haxelib setup "%HAXELIB_ROOT%"
+          
+          haxelib install newgrounds 
 
           haxelib install lime 7.9.0 --quiet
 
